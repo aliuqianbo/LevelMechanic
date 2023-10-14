@@ -31,13 +31,12 @@ public class FixedSentryGun : MonoBehaviour
     private SoundManager soundManager;
 
     private void Start()
-	{
+    {
         var soundManagerArray = FindObjectsOfType<SoundManager>();
         soundManager = soundManagerArray[0];
     }
 
-	// Update is called once per frame
-	void Update()
+    void Update()
     {
 
         if (boxAreaScan.counter > 0)
