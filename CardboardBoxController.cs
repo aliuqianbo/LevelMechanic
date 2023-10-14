@@ -20,7 +20,6 @@ public class CardboardBoxController : MonoBehaviour
 
     public bool isResearchMachine;
 
-    // Start is called before the first frame update
     void Start()
     {
         isGrabed = false;
@@ -35,7 +34,6 @@ public class CardboardBoxController : MonoBehaviour
         soundManager = soundManagerArray[0];
     }
 
-    // Update is called once per frame
     void Update()
     {
         //handle box drop
